@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="185dp"
+            android:layout_height="165dp" android:layout_gravity="left|center_vertical" android:background="@drawable/dokter">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="185dp"
+            android:layout_height="165dp" android:layout_gravity="right|center_vertical" android:background="@drawable/apotek">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="185dp"
+            android:layout_height="165dp" android:layout_gravity="left|bottom" android:background="@drawable/lab">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="185dp"
+            android:layout_height="165dp" android:layout_gravity="right|bottom" android:background="@drawable/darurat"
+            android:baselineAligned="false">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="166dp" android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/hospital">
+    </LinearLayout>
+</FrameLayout>
